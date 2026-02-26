@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dental Care</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+color:#333;
+background:#fafafa; 
+}
+
+/* CONTAINER */
+
+.container{
+width:85%;
+margin:auto;
+padding:50px 0;
+}
+
+/* HEADER */
+
+header{
+background:#a09184;
+color:rgb(250, 250, 250);
+text-align:center;
+padding:0px;
+}
+
+/* HERO */
+
+.hero{
+background:
+linear-gradient(rgba(160,145,132,0.6), rgba(160,145,132,0.6)),
+url("foto/bcprostho.jpg");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+text-align:center;
+padding:90px 20px;
+}
+
+/* TOMBOL */
+
+.btn{
+display:inline-block;
+background:white;
+color:#763f1d;
+padding:12px 28px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+margin-top:0px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#3f2c1b;
+color:white;
+transform:scale(1.05);
+}
+
+/* SECTION */
+
+.content{
+padding:30px 0;
+}
+
+.grey{
+background:#baa691;
+}
+
+/* CARD GRID */
+
+.card-box{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+/* CARD */
+
+.card{
+background:rgb(255, 255, 255);
+width:300px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+text-align:center;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* FOTO */
+
+.foto-layanan{
+width:100%;
+height:190px;
+object-fit:cover;
+border-radius:12px;
+transition:0.5s;
+}
+
+.card:hover .foto-layanan{
+transform:scale(1.08);
+}
+
+/* LIST */
+
+ul{
+line-height:2;
+font-size:18px;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:0px;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+th{
+background:#a09184;
+color:white;
+}
+
+th,td{
+padding:15px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f8f8f8;
+}
+
+/* NOTE */
+
+.note{
+margin-top:0px;
+font-size:14px;
+color:#777;
+}
+
+/* CTA */
+
+.cta{
+background:#3f2c1b;
+color:white;
+text-align:center;
+padding:0px 0px;
+}
+
+/* FOOTER */
+
+footer{
+background:#eee;
+text-align:center;
+padding:20px;
+font-size:14px;
+}
+
+/* ANIMASI MUNCUL */
+
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
+}
+
+.info-box{
+    max-width:750px;
+    margin:30px auto;
+    background:white;
+    padding:35px 45px;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.info-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+.info-box h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#3f2c1b;
+}
+
+.info-box p{
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* LIST MANFAAT */
+
+.manfaats-list{
+list-style:none;
+padding:0;
+margin-top:20px;
+}
+
+.manfaats-list li{
+background:#f7f7f7;
+margin:10px 0;
+padding:12px 18px;
+border-radius:10px;
+font-size:17px;
+transition:0.3s;
+}
+
+.manfaats-list li:hover{
+background:#e9e4dd;
+transform:translateX(5px);
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<h1>Dental Care</h1>
+<p>Klinik Gigi Spesialis Estetik & Rehabilitasi Oral</p>
+</div>
+</header>
+
+
+<section class="hero fade">
+<div class="container">
+<h2>Solusi Gigi Palsu Modern & Nyaman</h2>
+<p>Kembalikan senyum, fungsi kunyah, dan rasa percaya diri Anda.</p>
+
+<a href="#harga" class="btn">
+Lihat Estimasi Harga
+</a>
+
+</div>
+</section>
+
+
+
+<section class="content fade">
+<div class="container">
+
+<div class="info-box">
+
+<h2>Apa Itu Gigi Palsu?</h2>
+
+<p>
+Gigi palsu adalah perawatan dalam bidang prostodonsia yang bertujuan 
+menggantikan gigi yang hilang agar fungsi mengunyah, berbicara, dan 
+estetika tetap optimal. Perawatan ini dapat berupa gigi palsu lepasan, 
+bridge, maupun implan.
+</p>
+
+</div>
+
+</div>
+</section>
+
+
+
+<section class="content grey fade">
+
+<div class="container">
+
+<h2 align="center">Jenis Gigi Palsu</h2>
+
+
+<div class="card-box">
+
+
+<div class="card">
+
+<img src="foto/lepasan.jpg" class="foto-layanan">
+
+<h3>Gigi Palsu Lepasan</h3>
+
+<p>
+
+Dapat dilepas-pasang sendiri dan cocok untuk kehilangan banyak gigi.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="foto/bridge.jpg" class="foto-layanan">
+
+<h3>Gigi Bridge</h3>
+
+<p>
+
+Gigi tiruan permanen yang disangga oleh gigi di sebelahnya.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="foto/implan.jpg" class="foto-layanan">
+
+<h3>Gigi Implan</h3>
+
+<p>
+
+Gigi tiruan permanen dengan penanaman akar buatan pada tulang rahang.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section class="content fade">
+
+<div class="container">
+
+<div class="info-box">
+
+<h2>Manfaat Gigi Palsu</h2>
+
+<ul class="manfaats-list">
+
+<li>✔ Mengembalikan fungsi mengunyah</li>
+
+<li>✔ Meningkatkan kepercayaan diri</li>
+
+<li>✔ Mencegah pergeseran gigi</li>
+
+<li>✔ Menjaga bentuk wajah</li>
+
+<li>✔ Membantu berbicara lebih jelas</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="harga" class="content grey fade">
+
+<div class="container">
+
+<h2>Estimasi Harga</h2>
+
+
+<table>
+
+<tr>
+
+<th>Jenis Perawatan</th>
+
+<th>Estimasi Harga</th>
+
+</tr>
+
+
+<tr>
+
+<td>Gigi Palsu Lepasan</td>
+
+<td>Rp 1.500.000 – 4.000.000</td>
+
+</tr>
+
+
+<tr>
+
+<td>Gigi Bridge</td>
+
+<td>Rp 3.000.000 – 7.000.000</td>
+
+</tr>
+
+
+<tr>
+
+<td>Gigi Implan</td>
+
+<td>Rp 15.000.000 – 25.000.000</td>
+
+</tr>
+
+
+</table>
+
+
+<p class="note">
+<b>Harga dapat berbeda tergantung kondisi pasien.</b>
+</p>
+
+
+<section class="cta fade">
+
+<div class="container">
+
+<h2>Konsultasi Sekarang</h2>
+
+<p>
+
+Hubungi kami untuk pemeriksaan dan rencana perawatan terbaik.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Booking Konsultasi
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+© 2026 Dental Care Clinic
+
+</footer>
+
+
+
+<script>
+
+/* ANIMASI SCROLL */
+
+const fade=document.querySelectorAll('.fade');
+
+window.addEventListener('scroll',()=>{
+
+fade.forEach(el=>{
+
+const posisi=el.getBoundingClientRect().top;
+
+const layar=window.innerHeight;
+
+if(posisi<layar-100){
+
+el.classList.add('show');
+
+}
+
+});
+
+});
+
+</script>
+
+
+</body>
+</html>
